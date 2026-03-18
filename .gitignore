@@ -1,0 +1,41 @@
+# secrets
+04_data/raw_behavioral/*
+04_data/raw_imaging/*
+*.csv
+*.tsv
+*.nii
+*.nii.gz    # too big
+*.edf       
+.env        # API keys, passwords, etc.
+
+# keep the directory structure but ignore the files
+!04_data/raw_behavioral/.gitkeep
+!04_data/raw_imaging/.gitkeep
+
+# Python / Jupyter cache
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+venv/
+.env/
+
+# R cache
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Julia cache
+Manifest.toml  # 如果你希望使用者自己 resolve 环境，可以忽略
+
+# Quarto / LaTeX temporary files
+/.quarto/
+*.log
+*.aux
+*.out
+*.toc
+*_files/
+
+# OS generated files
+.DS_Store
+Thumbs.db
