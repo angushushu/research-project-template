@@ -26,7 +26,7 @@ venv/
 .Rproj.user/
 
 # Julia cache
-Manifest.toml  # 如果你希望使用者自己 resolve 环境，可以忽略
+Manifest.toml
 
 # Quarto / LaTeX temporary files
 /.quarto/
